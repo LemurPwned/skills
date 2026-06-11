@@ -14,6 +14,7 @@ Check the diff against main and remove AI-generated slop introduced in the branc
 - Casts to `any` used only to bypass type issues
 - Deeply nested code that should be simplified with early returns
 - Other patterns inconsistent with the file and surrounding codebase
+- Changes that seem too wide scoped and don't really make a sensible solution.
 
 ## Guardrails
 
